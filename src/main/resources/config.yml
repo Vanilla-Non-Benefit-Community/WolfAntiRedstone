@@ -1,0 +1,22 @@
+#
+#在下列世界中，红石系统将不再生效
+#红石信号无法达到1以及以上，活塞无法推动
+#
+ValidWorld:
+  - world
+  - main
+  - ababab
+#下列方块将会在被充能，被激活的时候清理掉(变成空气)
+CleanBlock:
+  #请务必全大写
+  - PISTON #活塞
+  - DAYLIGHT_DETECTOR #阳光传感器
+  - OBSERVER #侦测器
+  - REDSTONE_TORCH #红石火把
+  - REDSTONE_WIRE #红石粉
+  - REDSTONE_WALL_TORCH #墙上的红石火把
+  - REPEATER #中继器
+  - COMPARATOR #比较器
+  - TNT #TNT
+  - DROPPER #投掷器
+  - DISPENSER #发射器

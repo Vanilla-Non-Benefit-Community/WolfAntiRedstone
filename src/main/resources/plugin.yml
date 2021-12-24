@@ -1,0 +1,7 @@
+name: WolfAntiRedstone
+version: '${project.version}'
+main: org.minecraft.server.wolf.wolfantiredstone.WolfAntiRedstone
+api-version: 1.17
+prefix: WolfAntiRedstone
+authors: [ MikkoAyaka ]
+description: Stop redstone system.
